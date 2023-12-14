@@ -1,4 +1,3 @@
-import Header from "@/components/Layout/Header";
 import Hero from "@/components/Layout/Hero";
 import HomeMenu from "@/components/Layout/HomeMenu";
 import SectionHeaders from "@/components/Layout/SectionHeaders";
@@ -6,7 +5,6 @@ import SectionHeaders from "@/components/Layout/SectionHeaders";
 export default function Home() {
   return (
    <>
-   <Header />
    <Hero />
    <HomeMenu />
    <section className="text-center my-16">
@@ -44,9 +42,6 @@ export default function Home() {
       <a className="text-3xl underline text-gray-500" href="tel:+95123123123">+95 123 123 123</a>
     </div>
    </section>
-   <footer className="border-t p-8 text-center text-gray-500 mt-16">
-      &copy; All right reserved
-   </footer>
    </>
   )
 }
